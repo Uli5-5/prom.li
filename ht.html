@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="source/styles/my.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="pricing.html">Languages</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="index.html">HTML</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link   " href="c.html">CSS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="ht.html">JS</a>
+                        </li>
+
+
+
+                </div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <h1 Align="center"><span style="color: rgb(3, 9, 92);">Основы JS</span></h1>
+    <big><B><span style="color: rgb(3, 9, 92);">Что такое JS на самом деле?</span></big></B>
+    <p>JavaScript – это язык программирования, который используют разработчики для создания интерактивных веб-страниц.
+        Функции JavaScript могут улучшить удобство взаимодействия пользователя с веб-сайтом: от обновления ленты
+        новостей в социальных сетях и до отображения анимации и интерактивных карт.<br>
+    </p>
+    <big><B><span style="color: rgb(3, 9, 92);">Возможности JavaScript</span></B></big>
+    <p>
+        <li><B>контроль работы браузера</B> </li>
+        Вывод диалоговых окон, открытие / закрытие окон браузера, управление режимами прокрутки и размерами окон.
+
+        <li><B>взаимодействие с содержимым документов
+            </B></li> Объект Document - чтение / изменение частей HTML-документа , объект Form - чтение / изменение
+        содержимого его объектов Button, Checkbox, Hidden, Password, Radio, Reset, Select, Submit, Text и Textarea и
+        т.д.
+        <li><B>взаимодействие с пользователем </B></li>
+        Возможность определять обработчики событий, проверка вводимой информации, управление отсылкой содержимого форм.
+        <li><B>Выполнение произвольных математических вычислений + средства работы со значениями даты и времени.
+            </B></li>
+    </p>
+    <big><B><span style="color: rgb(3, 9, 92);">Используемые понятия</span></B></big>
+    <p>
+        <li><B>Объект</B></li>
+        Совокупность свойств, методов, коллекций и событий, предоставляемых браузером в рамках объектной модели.
+        <li><B>Свойство</B></li>
+        Переменная в рамках объекта, используемая для получения значения или установки нового.
+
+        <li><B>Метод</B></li>
+        Функция, предоставляемая объектом для выполнения каких-либо действий.
+        <li><B>Коллекция</B></li>
+        Упорядоченный набор свойств.
+        <li><B>Событие</B></li>
+        Какое-либо действие пользователя или момент работы браузера (для реакции на события создаются обработчики
+        событий).
+
+
+    </p>
+    <big><B><span style="color: rgb(3, 9, 92);">Используемые понятия</span></B></big>
+
+    <p>
+        <B><span style="color: rgb(3, 9, 92);">Литералы -
+            </span></B>это простейшие данные с которыми может работать программа.
+
+        <li><B>Литералы целого типа - </B>целые числа в представлении: десятичном,
+            например: 15, +5, -174.</li>
+
+        <li><B>Вещественные литералы - </B>дробные цисла.
+            Целая часть отделяется от дробной точкой, например: 99.15, -32.45. 
+        </li>
+        <li><B>Логические значения - </B>из два: истина (true) и ложь (false). </li>
+        <li><B>Строковые литералы - </B>последовательность символов, заключенная в одинарные или двойные кавычки.
+            Например: "ваше имя", 'ваше имя'.</li>
+
+
+    </p>
+    <big><B><span style="color: rgb(3, 9, 92);">Переменные</span></B></big>
+    <p>Переменные используются для хранения данных (значений или выражений). <br>
+
+        Переменные определяются с помощью оператора var, после которого следует имя переменной. <br>
+        Переменная может иметь короткое имя, например x, или более информативное имя, например carname (название
+        автомобиля).<br>
+        <b>Правила для имен переменных JavaScript:
+        </b>
+        <li>Имена переменных чувствительны к регистру (y и Y это две разных переменных).
+        </li>
+        <li>Имена переменных должны начинаться с буквы или символа подчеркивания.
+        </li>
+        <li>Само имя может включать буквы латинского алфавита, цифры и знак подчеркивания.
+        </li>
+        <b>Например:
+            <li>var test
+
+            </li>
+            <li>var _test
+            </li>
+            <li>var _my_test1</li>
+        </b>
+        После объявления переменные пусты (т.е. они пока еще не имеют значений).<br>
+        Можно присвоить значения переменным, когда вы объявляете их:<br>
+        <b>var x=5;<br>var carname="Мерседес";</b>
+
+        Переменная <b>x</b> будет содержать значение<b>5,</b>  и carname будет содержать значение <b>Мерседес.</b><br>
+
+        Оператор присвоения значения переменной обозначается символом равенства "=". <br>
+        Выражение с оператором "=" интерпретатор вычисляет следующим образом: сначала вычисляется значение справа от
+        знака равно, после чего результат присваивается переменной слева.<br>
+
+        <b>Замечание:</b> Когда вы присваиваете текстовое значение переменной, заключайте его в кавычки.<br>
+        <b>Замечание:</b> Если вы объявляете переменную повторно, она не потеряет свое значение.
+    </p>
+    <big><B><span style="color: rgb(3, 9, 92);">Комментарии</span></B></big>
+    <p>Добавляются для пояснения кода JavaScript, или чтобы сделать код более читабельным.<br>
+        Однострочные комментарии начинаются с //.<br>
+        <span style="color: rgb(2, 7, 82);">script type="text/javascript"<br>// Выводим заголовок<br> document.write("h1Это заголовок /h1");<br>/script <br></span>
+        <b>Многострочные комментарии начинаются с /* и заканчиваются */.</b><br>
+        <span style="color: rgb(2, 7, 82);">script type="text/javascript" <br>/*<br> Код ниже выводит один заголовок и параграф <br>*/<br> document.write("h1 Это заголовок /h1");<br> document.write("p Это параграф. /p");<br> /script </span>
+        </p>
+    <section>
+
+    </section>
+    <footer>
+
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица из трех столбиков</title>
+    <style>
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таблица из четырех столбиков</title>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2 style="text-align: center;"><span style="color: rgb(122, 12, 12);">Операторы</span></h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Оператор</th>
+                <th>Пример</th>
+                <th>Эквивалентная<br>операция</th>
+                <th>Резутьтат</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>=</td>
+                <td>x=y</td>
+                <td>-</td>
+                <td>x=5</td>
+            </tr>
+            <tr>
+                <td>+=</td>
+                <td>x+=y</td>
+                <td>x=x+y</td>
+                <td>x=15</td>
+            </tr>
+            <tr>
+                <td>-=</td>
+                <td>x-=y</td>
+                <td>x=x-y</td>
+                <td>x=5</td>
+            </tr>
+            <tr>
+                <td>*=</td>
+                <td>x*=y</td>
+                <td>x=x*y</td>
+                <td>x=50</td>
+            </tr>
+            <tr>
+                <td>/=</td>
+                <td>x/=y</td>
+                <td>x=x/y</td>
+                <td>x=2</td>
+            </tr>
+            <tr>
+                <td>%=</td>
+                <td>x%=y</td>
+                <td>x=x%y</td>
+                <td>x=0</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
